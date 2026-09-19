@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bajang Travel Lombok — private trip, open trip, honeymoon, family holiday, snorkeling, Sembalun, Mandalika dan transportasi Lombok. Booking mudah via WhatsApp.">
+<meta name="keywords" content="Bajang Travel, travel Lombok, paket wisata Lombok, tour Lombok, snorkeling Gili, Mandalika, Sembalun, Pink Beach Lombok">
+<meta name="theme-color" content="#123d35">
+<meta property="og:title" content="Bajang Travel | Explore Lombok">
+<meta property="og:description" content="Private trip, open trip, honeymoon dan transportasi di Lombok.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<link rel="icon" href="logo.png">
+<title>Bajang Travel | Explore Lombok</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--green:#123d35;--green2:#1f6254;--cream:#f7f4ed;--gold:#c79b55;--ink:#17211f;--muted:#66716e;--white:#fff;--line:#e7e4dc;--shadow:0 20px 50px rgba(16,36,31,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+.nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,.06)}.navin{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.brand img{width:48px;height:48px;object-fit:contain;border-radius:50%}.links{display:flex;gap:26px;font-size:14px;font-weight:600}.links a:hover{color:var(--gold)}.navcta,.btn{background:var(--green);color:#fff;padding:12px 18px;border-radius:999px;font-weight:700;border:0;cursor:pointer}.navcta:hover,.btn:hover{background:#0c2e28}.menu{display:none;background:none;border:0;font-size:25px}
+.hero{min-height:720px;padding-top:78px;display:grid;place-items:center;background:linear-gradient(90deg,rgba(10,35,30,.82),rgba(10,35,30,.2)),url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=85") center/cover}.hero-inner{width:min(1160px,92%);color:#fff;padding:85px 0}.eyebrow{letter-spacing:2px;text-transform:uppercase;font-size:12px;font-weight:800;color:#e5c88e}.hero h1{font:700 clamp(44px,7vw,78px)/1.02 "Playfair Display",serif;max-width:780px;margin:18px 0}.hero p{font-size:18px;max-width:650px;color:#edf4f0}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn.light{background:#fff;color:var(--green)}.btn.gold{background:var(--gold);color:#17211f}.trust{display:flex;gap:25px;flex-wrap:wrap;margin-top:45px;font-size:13px}.trust span{display:flex;gap:7px;align-items:center}
+section{padding:90px 0}.cream{background:var(--cream)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:38px}.section-head h2{font:700 42px/1.1 "Playfair Display",serif;margin:0}.section-head p{max-width:520px;color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.04)}.photo{height:220px;background-size:cover;background-position:center}.cardbody{padding:22px}.tag{display:inline-block;background:#edf5f1;color:var(--green);font-size:12px;font-weight:800;padding:5px 10px;border-radius:99px}.card h3{margin:12px 0 6px;font:700 25px "Playfair Display",serif}.muted{color:var(--muted);font-size:14px}.price{font-size:22px;font-weight:800;color:var(--green);margin:15px 0}.price small{font-size:12px;color:var(--muted);font-weight:500}.card-actions{display:flex;gap:9px}.outline{border:1px solid var(--green);color:var(--green);padding:10px 14px;border-radius:999px;font-weight:700;font-size:13px}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature{padding:24px;border:1px solid var(--line);border-radius:18px;background:#fff}.icon{font-size:28px}.feature h3{margin:9px 0 5px;font-size:17px}.feature p{margin:0;color:var(--muted);font-size:13px}
+.destinations{display:grid;grid-template-columns:1.5fr 1fr 1fr;grid-auto-rows:210px;gap:14px}.dest{border-radius:20px;overflow:hidden;position:relative;background-size:cover;background-position:center}.dest:first-child{grid-row:span 2}.dest:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(0,0,0,.7))}.dest span{position:absolute;bottom:18px;left:18px;color:#fff;z-index:1;font-weight:800;font-size:20px}
+.itinerary{display:grid;grid-template-columns:1fr 1fr;gap:28px}.day{border-left:3px solid var(--gold);padding:3px 0 3px 22px}.day h3{margin:0 0 8px}.day ul{margin:0;padding-left:20px;color:var(--muted)}
+.inclusions{display:grid;grid-template-columns:1fr 1fr;gap:12px}.inc{padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.booking{background:var(--green);color:#fff;border-radius:28px;padding:45px}.booking h2{font:700 40px "Playfair Display",serif;margin:0 0 8px}.booking p{color:#d7e4df}.form{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.form input,.form select,.form textarea{width:100%;padding:14px 15px;border:0;border-radius:10px;font:inherit}.form textarea{grid-column:1/-1;min-height:100px}.form .full{grid-column:1/-1}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:180px;gap:12px}.gallery div{border-radius:16px;background-size:cover;background-position:center}.gallery div:nth-child(1){grid-column:span 2;grid-row:span 2}
+.faq details{border-bottom:1px solid var(--line);padding:18px 0}.faq summary{font-weight:700;cursor:pointer}.faq p{color:var(--muted);max-width:800px}
+.footer{background:#0d2823;color:#dce8e3;padding:55px 0 25px}.footergrid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:30px}.footer h3{color:#fff}.footer p,.footer a{color:#b7c9c2;font-size:14px}.copyright{border-top:1px solid rgba(255,255,255,.1);margin-top:35px;padding-top:18px;font-size:12px;color:#91aaa1}
+.float{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;padding:14px 20px;border-radius:999px;font-weight:800;z-index:30;box-shadow:var(--shadow)}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:50;padding:20px;align-items:center;justify-content:center}.modal.open{display:flex}.modalbox{background:#fff;max-width:760px;width:100%;max-height:90vh;overflow:auto;border-radius:24px;padding:30px;position:relative}.close{position:absolute;right:18px;top:15px;border:0;background:#eee;border-radius:50%;width:36px;height:36px;cursor:pointer;font-size:20px}
+@media(max-width:850px){.links,.navcta{display:none}.menu{display:block}.grid{grid-template-columns:1fr}.features{grid-template-columns:1fr 1fr}.destinations{grid-template-columns:1fr 1fr}.dest:first-child{grid-row:auto}.itinerary{grid-template-columns:1fr}.footergrid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){section{padding:65px 0}.hero{min-height:650px}.hero h1{font-size:48px}.features,.destinations,.inclusions,.form,.footergrid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery div:nth-child(1){grid-column:span 2}.section-head{display:block}.section-head h2{font-size:35px;margin-bottom:10px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="container navin">
+<a class="brand" href="#home"><img src="logo.png" alt="Bajang Travel">Bajang Travel</a>
+<div class="links"><a href="#paket">Paket</a><a href="#destinasi">Destinasi</a><a href="#layanan">Layanan</a><a href="#transport">Transport</a><a href="#tentang">Tentang</a><a href="#faq">FAQ</a></div>
+<a class="navcta" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20konsultasi%20perjalanan%20di%20Lombok." target="_blank">Konsultasi</a><button class="menu" onclick="document.querySelector('.links').style.display=document.querySelector('.links').style.display==='flex'?'none':'flex'">☰</button>
+</div></nav>
+
+<header id="home" class="hero"><div class="hero-inner">
+<div class="eyebrow">Local travel • Lombok • Indonesia</div>
+<h1>Jelajahi Lombok. Kami urus perjalanannya.</h1>
+<p>Private trip, open trip, honeymoon, family holiday dan transportasi dengan itinerary fleksibel. Pesan mudah langsung melalui WhatsApp.</p>
+<div class="hero-actions"><a class="btn gold" href="#paket">Lihat Paket</a><a class="btn light" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20booking." target="_blank">Booking Sekarang</a></div>
+<div class="trust"><span>✓ Itinerary fleksibel</span><span>✓ Driver lokal</span><span>✓ Harga transparan</span><span>✓ Custom trip</span></div>
+</div></header>
+
+<section id="paket" class="cream"><div class="container">
+<div class="section-head"><div><div class="eyebrow" style="color:var(--gold)">Pilihan perjalanan</div><h2>Paket yang siap dipilih</h2></div><p>Harga awal Bajang Travel berdasarkan benchmark harga publik travel Lombok. Detail fasilitas dan harga final dikonfirmasi sebelum pembayaran.</p></div>
+<div class="grid">
+<article class="card"><div class="photo" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80')"></div><div class="cardbody"><span class="tag">Best for weekend</span><h3>Trip Lombok 2H1M</h3><p class="muted">Mandalika • Pantai • Budaya Sasak</p><div class="price">Rp850.000 <small>/ orang</small></div><div class="card-actions"><button class="btn" onclick="openPackage('2H1M')">Lihat itinerary</button><a class="outline" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20tertarik%20paket%202H1M." target="_blank">Booking</a></div></div></article>
+<article class="card"><div class="photo" style="background-image:url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1000&q=80')"></div><div class="cardbody"><span class="tag">Pilihan populer</span><h3>Trip Lombok 3H2M</h3><p class="muted">Selatan • Gili • Sasak</p><div class="price">Rp1.250.000 <small>/ orang</small></div><div class="card-actions"><button class="btn" onclick="openPackage('3H2M')">Lihat itinerary</button><a class="outline" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20tertarik%20paket%203H2M." target="_blank">Booking</a></div></div></article>
+<article class="card"><div class="photo" style="background-image:url('https://images.unsplash.com/photo-1476673160081-cf065607f449?auto=format&fit=crop&w=1000&q=80')"></div><div class="cardbody"><span class="tag">Explore more</span><h3>Trip Lombok 4H3M</h3><p class="muted">Selatan • Gili • Sembalun</p><div class="price">Rp1.550.000 <small>/ orang</small></div><div class="card-actions"><button class="btn" onclick="openPackage('4H3M')">Lihat itinerary</button><a class="outline" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20tertarik%20paket%204H3M." target="_blank">Booking</a></div></div></article>
+</div>
+<div style="height:22px"></div>
+<div class="grid">
+<article class="card"><div class="cardbody"><span class="tag">Daily</span><h3>3 Gili + Snorkeling</h3><p class="muted">Gili Trawangan • Gili Meno • Gili Air</p><div class="price">Rp350.000 <small>/ orang</small></div><a class="btn" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20booking%203%20Gili%20%2B%20snorkeling." target="_blank">Booking Sekarang</a></div></article>
+<article class="card"><div class="cardbody"><span class="tag">Daily</span><h3>Sembalun</h3><p class="muted">Pegunungan • Desa • Panorama</p><div class="price">Rp450.000 <small>/ orang</small></div><a class="btn" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20booking%20trip%20Sembalun." target="_blank">Booking Sekarang</a></div></article>
+<article class="card"><div class="cardbody"><span class="tag">Daily</span><h3>Pink Beach</h3><p class="muted">Pantai • Bukit • Laut</p><div class="price">Rp375.000 <small>/ orang</small></div><a class="btn" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20booking%20Pink%20Beach." target="_blank">Booking Sekarang</a></div></article>
+</div>
+</div></section>
+
+
+<section class="cream" id="transport"><div class="container">
+<div class="section-head"><div><div class="eyebrow" style="color:var(--gold)">Transportasi</div><h2>Mobil & airport transfer</h2></div>
+<p>Kendaraan dengan driver untuk perjalanan di Lombok. Harga bersifat mulai dan dikonfirmasi sesuai tanggal serta kebutuhan.</p></div>
+<div class="grid">
+<article class="card"><div class="cardbody"><span class="tag">Dengan driver</span><h3>Avanza / Xpander</h3><p class="muted">Cocok untuk pasangan dan keluarga kecil.</p><div class="price">Mulai Rp500.000 <small>/ hari</small></div><a class="btn" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20sewa%20Avanza%2FXpander." target="_blank">Tanya Ketersediaan</a></div></article>
+<article class="card"><div class="cardbody"><span class="tag">Dengan driver</span><h3>Innova Reborn</h3><p class="muted">Lebih nyaman untuk keluarga atau rombongan.</p><div class="price">Mulai Rp850.000 <small>/ hari</small></div><a class="btn" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20sewa%20Innova%20Reborn." target="_blank">Tanya Ketersediaan</a></div></article>
+<article class="card"><div class="cardbody"><span class="tag">Rombongan</span><h3>Hiace</h3><p class="muted">Pilihan untuk grup dan perjalanan keluarga besar.</p><div class="price">Mulai Rp1.450.000 <small>/ hari</small></div><a class="btn" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20sewa%20Hiace." target="_blank">Tanya Ketersediaan</a></div></article>
+</div>
+<div style="margin-top:18px;padding:20px;border:1px solid var(--line);border-radius:18px;background:#fff"><b>Airport Transfer</b><br><span class="muted">Bandara Lombok ↔ hotel/destinasi — mulai Rp250.000. Harga final mengikuti titik jemput, jumlah penumpang dan kendaraan.</span></div>
+</div></section>
+<section id="layanan"><div class="container"><div class="section-head"><div><div class="eyebrow" style="color:var(--gold)">Kenapa Bajang Travel</div><h2>Simple, nyaman, transparan.</h2></div></div>
+<div class="features"><div class="feature"><div class="icon">🚙</div><h3>Transportasi</h3><p>Avanza, Innova Reborn, Hiace dan airport transfer sesuai kebutuhan.</p></div><div class="feature"><div class="icon">🧭</div><h3>Custom Itinerary</h3><p>Rute dapat disesuaikan dengan waktu, minat dan ukuran rombongan.</p></div><div class="feature"><div class="icon">📱</div><h3>Booking Mudah</h3><p>Konsultasi dan konfirmasi perjalanan langsung melalui WhatsApp.</p></div><div class="feature"><div class="icon">💳</div><h3>Harga Transparan</h3><p>Detail fasilitas dan biaya dikonfirmasi sebelum pembayaran.</p></div></div></div></section>
+
+<section id="destinasi" class="cream"><div class="container"><div class="section-head"><div><div class="eyebrow" style="color:var(--gold)">Explore</div><h2>Destinasi Lombok</h2></div><p>Contoh destinasi yang dapat dimasukkan ke private trip dan paket custom.</p></div>
+<div class="destinations">
+<div class="dest" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80')"><span>Kuta & Mandalika</span></div>
+<div class="dest" style="background-image:url('https://images.unsplash.com/photo-1476673160081-cf065607f449?auto=format&fit=crop&w=900&q=80')"><span>Gili Islands</span></div>
+<div class="dest" style="background-image:url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80')"><span>Sembalun</span></div>
+<div class="dest" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80')"><span>Pink Beach</span></div>
+<div class="dest" style="background-image:url('https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=900&q=80')"><span>Desa Sasak</span></div>
+</div></div></section>
+
+<section id="tentang"><div class="container"><div class="itinerary"><div><div class="eyebrow" style="color:var(--gold)">Tentang kami</div><h2 style="font:700 42px/1.1 'Playfair Display',serif">Bajang Travel, teman perjalananmu di Lombok.</h2><p class="muted">Kami fokus membantu wisatawan menikmati Lombok dengan perjalanan yang praktis, fleksibel dan mudah dipesan. Mulai dari trip harian hingga perjalanan beberapa hari.</p><p class="muted"><b>WhatsApp:</b> +62 878-5584-2799<br><b>Area:</b> Lombok, Indonesia</p></div>
+<div><div class="day"><h3>Private Trip</h3><p class="muted">Cocok untuk pasangan, keluarga dan rombongan yang menginginkan jadwal lebih fleksibel.</p></div><div class="day"><h3>Open Trip</h3><p class="muted">Pilihan perjalanan bersama dengan jadwal dan harga yang lebih terstruktur.</p></div><div class="day"><h3>Custom Trip</h3><p class="muted">Gabungkan destinasi sesuai waktu dan kebutuhan Anda.</p></div></div></div></div></section>
+
+<section class="cream"><div class="container"><div class="section-head"><div><div class="eyebrow" style="color:var(--gold)">Gallery</div><h2>Inspirasi perjalanan</h2></div></div><div class="gallery">
+<div style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80')"></div><div style="background-image:url('https://images.unsplash.com/photo-1476673160081-cf065607f449?auto=format&fit=crop&w=900&q=80')"></div><div style="background-image:url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80')"></div><div style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80')"></div><div style="background-image:url('https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=900&q=80')"></div>
+</div></div></section>
+
+<section><div class="container"><div class="booking"><div class="eyebrow">Booking</div><h2>Rencanakan Lombok Trip-mu.</h2><p>Isi singkat di bawah. Setelah dikirim, WhatsApp akan terbuka dengan format pesan otomatis.</p>
+<form class="form" onsubmit="book(event)"><input id="nama" required placeholder="Nama"><input id="tanggal" type="date" required><select id="paket"><option>Trip 2H1M</option><option>Trip 3H2M</option><option>Trip 4H3M</option><option>3 Gili + Snorkeling</option><option>Sembalun</option><option>Pink Beach</option><option>Custom Trip</option></select><input id="jumlah" type="number" min="1" required placeholder="Jumlah peserta"><textarea id="catatan" placeholder="Catatan / destinasi yang diinginkan"></textarea><button class="btn gold full" type="submit">Kirim Permintaan Booking via WhatsApp</button></form></div></div></section>
+
+
+<section><div class="container"><div class="section-head"><div><div class="eyebrow" style="color:var(--gold)">Location</div><h2>Explore Lombok</h2></div><p>Bajang Travel melayani perjalanan di berbagai area Lombok. Untuk titik meeting point atau penjemputan, konfirmasi melalui WhatsApp.</p></div>
+<div style="border-radius:24px;overflow:hidden;box-shadow:var(--shadow)">
+<iframe title="Lokasi Bajang Travel" src="https://www.google.com/maps?q=Dusun%20Rebile%2C%20Desa%20Tanak%20Awu%2C%20Kecamatan%20Pujut%2C%20Lombok%2C%20Indonesia&output=embed" width="100%" height="360" style="border:0" loading="lazy"></iframe>
+</div></div></section>
+<section id="faq" class="cream"><div class="container faq"><div class="section-head"><div><div class="eyebrow" style="color:var(--gold)">FAQ</div><h2>Pertanyaan umum</h2></div></div>
+<details><summary>Apakah itinerary bisa custom?</summary><p>Ya. Untuk private/custom trip, rute dan durasi dapat disesuaikan dengan kebutuhan rombongan.</p></details>
+<details><summary>Apakah harga sudah final?</summary><p>Harga di website adalah harga mulai/benchmark. Harga final dikonfirmasi berdasarkan tanggal, jumlah peserta, hotel, fasilitas dan itinerary sebelum pembayaran.</p></details>
+<details><summary>Bagaimana pembayaran dan DP?</summary><p>Ketentuan DP dan pelunasan disampaikan saat konfirmasi booking. Jangan melakukan transfer sebelum menerima detail pembayaran resmi dari Bajang Travel.</p></details>
+<details><summary>Bagaimana pembatalan?</summary><p>Ketentuan pembatalan mengikuti kesepakatan booking dan biaya pihak ketiga yang sudah dibayarkan. Detail akan diinformasikan sebelum pembayaran.</p></details>
+<details><summary>Apakah tersedia jemput bandara?</summary><p>Ya. Airport transfer tersedia mulai Rp250.000, dengan harga final menyesuaikan titik jemput dan kebutuhan kendaraan.</p></details>
+</div></section>
+
+
+<section class="cream"><div class="container"><div class="section-head"><div><div class="eyebrow" style="color:var(--gold)">Informasi penting</div><h2>Harga & booking</h2></div></div>
+<div class="inclusions">
+<div class="inc"><b>Harga transparan</b><br><span class="muted">Harga di website adalah harga mulai. Komponen yang termasuk dalam paket akan dijelaskan sebelum pembayaran.</span></div>
+<div class="inc"><b>Konfirmasi sebelum transfer</b><br><span class="muted">Jangan melakukan pembayaran sebelum menerima rincian booking dan rekening resmi Bajang Travel.</span></div>
+<div class="inc"><b>Cuaca & kondisi lapangan</b><br><span class="muted">Itinerary dapat berubah demi keamanan dan menyesuaikan kondisi destinasi, cuaca, serta operasional lokal.</span></div>
+<div class="inc"><b>Custom quotation</b><br><span class="muted">Untuk rombongan 2–3, 4–5, 6–10 orang atau lebih, minta penawaran khusus melalui WhatsApp.</span></div>
+</div></div></section>
+<footer class="footer"><div class="container"><div class="footergrid"><div><img src="logo.png" style="width:65px;border-radius:50%" alt="Bajang Travel"><h3>Bajang Travel</h3><p>Explore Lombok with a local touch.</p></div><div><h3>Quick Links</h3><p><a href="#paket">Paket Wisata</a></p><p><a href="#destinasi">Destinasi</a></p><p><a href="#faq">FAQ</a></p></div><div><h3>Hubungi</h3><p>WhatsApp: +62 878-5584-2799</p><p><a href="https://wa.me/6287855842799" target="_blank">Chat WhatsApp →</a></p><p>Instagram: segera hadir</p></div></div><div class="copyright">© 2026 Bajang Travel. All rights reserved.</div></div></footer>
+<a class="float" href="https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20konsultasi." target="_blank">💬 WhatsApp</a>
+
+<div id="modal" class="modal" onclick="if(event.target===this)closeModal()"><div class="modalbox"><button class="close" onclick="closeModal()">×</button><div id="modalcontent"></div></div></div>
+<script>
+const data={
+"2H1M":{title:"Paket Lombok 2H1M",price:"Rp850.000/orang",days:[["Hari 1 — Selatan Lombok","Penjemputan • Desa Sasak • Kuta Mandalika • Tanjung Aan • Bukit Merese • Check-in hotel"],["Hari 2 — Wisata & pulang","Sarapan • destinasi pilihan • makan siang sesuai paket • transfer ke bandara/hotel"]]},
+"3H2M":{title:"Paket Lombok 3H2M",price:"Rp1.250.000/orang",days:[["Hari 1 — Sasak & Mandalika","Penjemputan • Desa Sasak • Kuta • Tanjung Aan • Bukit Merese • Hotel"],["Hari 2 — Gili / wisata bahari","Gili Trawangan • Gili Meno • Gili Air / opsi snorkeling • kembali ke hotel"],["Hari 3 — Santai & transfer","Sarapan • destinasi ringan sesuai jadwal • oleh-oleh • transfer"]]},
+"4H3M":{title:"Paket Lombok 4H3M",price:"Rp1.550.000/orang",days:[["Hari 1 — Selatan Lombok","Sasak • Kuta • Tanjung Aan • Bukit Merese"],["Hari 2 — Gili & snorkeling","Island hopping • snorkeling • sunset / waktu bebas"],["Hari 3 — Sembalun","Panorama Sembalun • desa / viewpoint • kembali ke hotel"],["Hari 4 — Transfer","Sarapan • destinasi pilihan • transfer bandara/hotel"]]}
+};
+function openPackage(k){const d=data[k];document.getElementById("modalcontent").innerHTML="<div class='eyebrow' style='color:var(--gold)'>DETAIL PAKET</div><h2 style=\"font:700 38px 'Playfair Display',serif\">"+d.title+"</h2><p><b>Mulai "+d.price+"</b></p><div class='inclusions'>"+d.days.map(x=>"<div class='inc'><b>"+x[0]+"</b><br><span class='muted'>"+x[1]+"</span></div>").join("")+"</div><p class='muted' style='margin-top:20px'>Itinerary dapat berubah menyesuaikan kondisi lapangan, cuaca, jam operasional destinasi, dan permintaan peserta.</p><a class='btn' href='https://wa.me/6287855842799?text=Halo%20Bajang%20Travel%2C%20saya%20ingin%20booking%20"+encodeURIComponent(k)+"' target='_blank'>Booking Paket Ini</a>";document.getElementById("modal").classList.add("open")}
+function closeModal(){document.getElementById("modal").classList.remove("open")}
+function book(e){e.preventDefault();let n=document.getElementById("nama").value,t=document.getElementById("tanggal").value,p=document.getElementById("paket").value,j=document.getElementById("jumlah").value,c=document.getElementById("catatan").value;let msg=`Halo Bajang Travel,%0A%0ASaya ingin booking.%0ANama: ${encodeURIComponent(n)}%0ATanggal: ${encodeURIComponent(t)}%0APaket: ${encodeURIComponent(p)}%0AJumlah peserta: ${encodeURIComponent(j)}%0ACatatan: ${encodeURIComponent(c)}`;window.open("https://wa.me/6287855842799?text="+msg,"_blank")}
+</script>
+</body></html>
